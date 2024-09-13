@@ -9,7 +9,7 @@ import {getDocs, collection,getFirestore, doc, getDoc,query,where} from 'firebas
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDPKmV0lQRb5MMzmoZq61BOx75yc1WnmDc",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "vans-app-a13bd.firebaseapp.com",
   projectId: "vans-app-a13bd",
   storageBucket: "vans-app-a13bd.appspot.com",
